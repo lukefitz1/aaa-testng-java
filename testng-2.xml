@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Alex and Ani test suite" parallel="tests">
+    
+	<listeners>
+	    <listener class-name="utilities.Listener" />
+	</listeners>
+    
+   <test name="Sort by Name test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.SortByNameTest" />
+	   	</classes>   	
+   </test>
+<!--    <test name="Sort by Price test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.SortByPriceTest" />
+	   	</classes>
+   </test> 
+   <test name="Sort by Position test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.SortByPositionTest" />
+	   	</classes>
+   </test> -->
+<!--    <test name="View as List/Grid test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	
+	   	<classes>
+	   	     <class name="tests.ViewAsListGridTest" />
+	   	</classes>
+   </test>
+   <test name="Show more products test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.ShowMoreProductsTest" />
+	   	</classes>
+   </test>
+   <test name="Add to Wishlist test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.AddToWishlistTest" />
+	   	</classes>
+   </test>
+   <test name="Checkout test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="850" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.CheckoutTest" />
+	   	</classes>
+   </test>
+   <test name="Account login test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.AccountLoginTest" />
+	   	</classes>
+   </test>
+   <test name="Creat account test on Mac Chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="750" />
+		</parameters>
+	   	<classes>
+	   	     <class name="tests.AccountCreateTest" />
+	   	</classes>   	
+   </test> -->
+</suite>
+
+   
+   
+   
+<!--     <test name="Test suite for Safari" preserve-order="true">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="safari" />
+			<parameter name="pversion" value="9.0.3" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" />
+		        <include name="show_more" />
+		        <include name="sort_by_position" />
+		        <include name="view_as_list_grid" />
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <include name="checkout" />
+		        <include name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.ShowMoreProductsTest" />
+	   	     <class name="tests.CategoryPage.SortByPositionTest" />
+	   	     <class name="tests.CategoryPage.ViewAsListGridTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>-->
+<!-- 	<test name="Test suite for Firefox on a mac" preserve-order="true">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="firefox" />
+			<parameter name="pversion" value="45.0.2" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="sort_by_name" />
+		        <include name="show_more" />
+		        <include name="sort_by_position" />
+		        <include name="view_as_list_grid" />
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <include name="checkout" />
+		        <include name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.ShowMoreProductsTest" />
+	   	     <class name="tests.CategoryPage.SortByPositionTest" />
+	   	     <class name="tests.CategoryPage.ViewAsListGridTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>-->
+<!--     <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test> -->
+<!--     <test name="Test suite for Edge on Win10" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="MicrosoftEdge" />
+			<parameter name="pversion" value="20" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win10" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>-->
+<!--     <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>  
+ 	<test name="Test suite for Chrome on Win7">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+    <test name="Test suite for Firefox on Win7">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="firefox" />
+			<parameter name="pversion" value="42" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+    <test name="Test suite for IE11">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="internet explorer" />
+			<parameter name="pversion" value="11" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+    <test name="Test suite for IE10">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="internet explorer" />
+			<parameter name="pversion" value="10" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+    <test name="Test suite for IE9">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="internet explorer" />
+			<parameter name="pversion" value="9" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+    <test name="Test suite for Android">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.ANDROID" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="4.4" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="android" />
+			<parameter name="pdevice" value="Samsung Galaxy S5 - 4.4.4 - API 19 - 1080x1920" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+    <test name="Test suite for iPhone 6, iOS 8.4">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="safari" />
+			<parameter name="pversion" value="8.4" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="ios" />
+			<parameter name="pdevice" value="iPhone 6" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+	<test name="Test suite for iPad 2/iPad Air, iOS 8.4">
+    	<parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="safari" />
+			<parameter name="pversion" value="8.4" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="ios" />
+			<parameter name="pdevice" value="iPad Air" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+	<test name="Test suite for LG G2">
+    	<parameters>
+			<parameter name="pplatform" value="MobilePlatform.ANDROID" />
+			<parameter name="pbrowser" value="Chrome" />
+			<parameter name="pversion" value="48" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="android" />
+			<parameter name="pdevice" value="VS9804G4f088eb9" />
+		</parameters>
+		
+		<groups>
+		    <run>
+		        <include name="sort_by_name" /> 
+		        <include name="sort_by_price" />
+		        <include name="add_to_wishlist" />
+		        <include name="acct_create" />
+		        <exclude name="checkout" />
+		        <exclude name="login" />
+			</run> 
+		</groups>
+	   	
+	   	<classes>
+	   	     <class name="tests.CategoryPage.SortByNameTest" />
+	   	     <class name="tests.CategoryPage.SortByPriceTest" />
+	   	     <class name="tests.ProductPage.AddToWishlistTest" />
+	   	     <class name="tests.MyAccount.AccountCreateTest" />
+	   	     <class name="tests.Checkout.CheckoutTest" />
+	   	    <class name="tests.MyAccount.AccountLoginTest" />
+	   	</classes>
+   </test>
+    <test name="Delete customer in admin - Chrome on a Mac" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="46" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+		</parameters>
+    	
+		<groups>
+		    <run>
+		        <include name="admin_delete_customer" /> 
+			</run> 
+		</groups>
+    	
+    	<classes>
+    	     <class name="tests.Admin.DeleteCustomerTest" />
+	   	</classes>
+   </test>
+</suite> --> 

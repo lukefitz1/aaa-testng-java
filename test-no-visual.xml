@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Alex and Ani visual test suite" >
+    
+	<listeners>
+		<listener class-name="utilities.Listener" />
+	</listeners>
+	
+	<test name="Mini cart visual regression test on mac in chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+		<run>
+			<groups>
+				<exclude name="visual" />
+			</groups>
+		</run>
+	  	<classes>
+	  	     <class name="tests.MiniCartVisualTest" />
+	  	</classes>   	
+	</test>
+	<test name="Mini cart visual regression test on windows in safari" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="safari" />
+			<parameter name="pversion" value="9.0.3" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.MiniCartVisualTest" />
+	  	</classes>   	
+	</test>
+	<test name="Mini cart visual regression test on windows in firefox" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="firefox" />
+			<parameter name="pversion" value="45.0.2" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.MiniCartVisualTest" />
+	  	</classes>   	
+	</test>
+	
+</suite>

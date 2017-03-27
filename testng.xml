@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Alex and Ani visual test suite" >
+    
+	<listeners>
+		<listener class-name="utilities.Listener" />
+	</listeners>
+	
+	<test name="Register customer account in header on windows in chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1280" />
+			<parameter name="pheight" value="700" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.AccountLoginTest" />
+	  	</classes>   	
+	</test>
+	<!-- <test name="Register customer account in header on windows in chrome" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.HeaderAccountRegisterTest" />
+	  	</classes>   	
+	</test>
+	<test name="Delete customer in admin on windows in chrome-1" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.DeleteCustomerTest" />
+	  	</classes>   	
+	</test>
+	<test name="Register customer account in header on windows in firefox" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="firefox" />
+			<parameter name="pversion" value="46.0.1" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.HeaderAccountRegisterTest" />
+	  	</classes>   	
+	</test>
+	<test name="Delete customer in admin on windows in chrome-2" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.DeleteCustomerTest" />
+	  	</classes>   	
+	</test>
+	<test name="Register customer account in header on windows in IE11" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="internet explorer" />
+			<parameter name="pversion" value="11" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.HeaderAccountRegisterTest" />
+	  	</classes>   	
+	</test>
+	<test name="Delete customer in admin on windows in chrome-3" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.DeleteCustomerTest" />
+	  	</classes>   	
+	</test>
+	<test name="Register customer account in header on mac in safari" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.MAC" />
+			<parameter name="pbrowser" value="safari" />
+			<parameter name="pversion" value="9.0.3" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="mac" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.HeaderAccountRegisterTest" />
+	  	</classes>   	
+	</test>
+	<test name="Delete customer in admin on windows in chrome-4" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.DeleteCustomerTest" />
+	  	</classes>   	
+	</test>
+	<test name="Register customer account in header on windows in IE10" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="internet explorer" />
+			<parameter name="pversion" value="10" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.HeaderAccountRegisterTest" />
+	  	</classes>   	
+	</test>
+	<test name="Delete customer in admin on windows in chrome-5" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.DeleteCustomerTest" />
+	  	</classes>   	
+	</test>
+	<test name="Register customer account in header on windows in IE9" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="internet explorer" />
+			<parameter name="pversion" value="9" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.HeaderAccountRegisterTest" />
+	  	</classes>   	
+	</test>
+	<test name="Delete customer in admin on windows in chrome-6" preserve-order="true">
+	    <parameters>
+			<parameter name="pplatform" value="Platform.WINDOWS" />
+			<parameter name="pbrowser" value="chrome" />
+			<parameter name="pversion" value="50" />
+			<parameter name="purl" value="http://localhost:4444/wd/hub"/>
+			<parameter name="pos" value="win7" />
+			<parameter name="pdevice" value="desktop" />
+			<parameter name="pwidth" value="1440" />
+			<parameter name="pheight" value="800" />
+		</parameters>
+	  	<classes>
+	  	     <class name="tests.DeleteCustomerTest" />
+	  	</classes>   	
+	</test>-->
+	
+	
+	
+</suite>
